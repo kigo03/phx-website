@@ -1,0 +1,160 @@
+body {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+header {
+    background-color: #fffbf7;
+    color: #fff;
+    padding: 5px 5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.logo img {
+    height: 90px;
+    border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0e0803;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px; 
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #eb8213;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid #f0edeb; 
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h1{
+    font-size: 36px;
+    color: #eb8213;
+}
+
+#home {
+    background-color: #f4f4f4;
+    background: url('home.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#about {
+    background: url('about.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#services {
+    background: url('services.jpg') no-repeat center center;
+    background-size: cover;
+
+}
+
+#services:hover {
+    background-color: #f0f0f0; 
+}
+
+
+#services summary {
+    cursor: pointer; 
+    font-weight: bold; 
+}
+
+#contact {
+    background: url('contact.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#about, #services, #contact {
+    background-color: #e2e2e2;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    margin: 5px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media {
+    margin-left: auto;
+    
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-media a:hover {
+    color: #ddd;
+}
